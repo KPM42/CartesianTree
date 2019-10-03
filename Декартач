@@ -11,7 +11,7 @@ struct node {
     node(int key = 0, int prior = (rand() << 16) + rand()) {
         x = key;
         y = prior;
-        left = nullptr;https://github.com/KPM42/CartesianTree/blob/master/Явный%20Декартач
+        left = nullptr;
         right = nullptr;
         size = 1;
         sum = key;
